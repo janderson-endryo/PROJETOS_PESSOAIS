@@ -1,2 +1,2 @@
 # PROJETOS_PESSOAIS
- apredizador
+ aprendizador
