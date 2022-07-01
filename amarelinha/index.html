@@ -1,78 +1,62 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <script src="https://kit.fontawesome.com/36d70c3dce.js" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>farmacia amarelinha</title>
 
-    <title>Farmácia amarelinha</title>
-
-<style>
-
-    
-    body{
-        margin: 0;
-        height: 100vh;
-        width: 100vw;
-    }
-
-    .search-box{
-        position: absolute;
-        top: 4%;
-        left: 23%;
-        background: rgb(255, 255, 255);
-        border-radius: 35px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-
-    }
-
-    .search-txt{
-        outline: none;
-        padding: 16px calc(280px) 16px 16px;
-        color: #000000;
-        font-size: 18px;
-        line-height: 19px;
-    }
-
-    ::-webkit-input-placeholder{
-        color: #000000;
-    }
-
-    .search-btn{
-        width: 40px;
-        height: 40px;
-        border-radius: 50%;
-        display: flex;
-        justify-content:center;
-        align-items: center;
-
-    }
-
-    .img1{
-        position: absolute;
-        top: 2%;
-        left: -0.5%;
-    }
-
-</style>
+    <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
-
 <body>
-    <div class = "img1"> <img src="media/amarelinha1.png" alt="teste"> </div>
+
+    <div class="logo-box">
+        <p class="p1">FARMACIA</p>
+        <pre>AMARELINHA</pre>
+        <p class="p2">clique nos links abaixo para entrar em contato conosco</p>
+
+        <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3980.7272329066805!2d-38.6302627856792!3d-3.868579144983555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c7535481be29eb%3A0xb6059aaea4f88f95!2sFARM%C3%81CIA%20AMARELINHA!5e0!3m2!1spt-BR!2sbr!4v1656693664207!5m2!1spt-BR!2sbr" width="300" height="160" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </div>
+
+    <div class="navbar">
+        <div class="box">
+            <a href="" target="_blank" real="external">
+                <div class="icon instagram">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </div>
+                <p>Instagram</p>
+            </a>
+        </div>
+
+        <div class="box">
+            <a href="" target="_blank" real="external">
+                <div class="icon whatsapp">
+                    <ion-icon name="logo-whatsapp"></ion-icon>
+                </div>
+                <p>Whatsapp</p>
+            </a>
+
+        </div>
+
+    </div>
+
+        
+    
+    <!--<div class = "img1"> <img src="media/amarelinha1.png" alt="teste"> </div>
 
     <div class="search-box">
         <input type="text" class="search-txt" placeholder=" o que deseja encontra?">
         <a href="#" class="search-btn">
             <img src="media/lupa.svg" alt="lupa" height="20" width="20">
         </a>
-    </div>
+    </div>-->
+
+
 </body>
 </html>
